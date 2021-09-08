@@ -29,3 +29,9 @@ for i in range(5):
     Idiomas= input("agregue el idioma: ")
     agenda.append(Idiomas)
 print(agenda)
+
+agenda=[]
+for i in range(4):
+    Asignaturas= input("agregue la asignatura: ")
+    agenda.append(Asignaturas)
+print(agenda)
