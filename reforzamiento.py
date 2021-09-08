@@ -23,3 +23,9 @@ for i in range(6):
     Colors= input("add a color: ")
     agenda.append(Colors)
 print(agenda)
+
+agenda= []
+for i in range(5):
+    Idiomas= input("agregue el idioma: ")
+    agenda.append(Idiomas)
+print(agenda)
