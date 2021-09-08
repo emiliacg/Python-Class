@@ -15,3 +15,11 @@ for i in range(4):
     Numeros= input("agregue numero: ")
     agenda.append(Numeros)
 print(agenda)
+
+
+print("Prima demo da sola")
+agenda= []
+for i in range(6):
+    Colors= input("add a color: ")
+    agenda.append(Colors)
+print(agenda)
