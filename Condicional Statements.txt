@@ -1,0 +1,14 @@
+Condicional Statements
+if,if-else,if-elif-else.
+
+If: Structure>Condition/Code to be executed.
+Flujo de if: if the condition holds True, execute the code to be executed. Otherwise, skip it and move on.
+
+If/else: Condition/Code to be executed. Else: executed this code instead.
+If-else: Cuando se ejecuta if y nos da False, podemos utilizar else para que se pueda ejecutar el codigo a como de lugar.
+
+If-elif-else.
+Elif= Else if. Si las otras condiciones no funcionan, intenta con esta.
+Elif: Condition2: execute this code instead. 
+An if-elif statement can exist on its own without an else block at the end. However, an elif cannot exist without an if statement preceding it (which naturally makes sense).
+

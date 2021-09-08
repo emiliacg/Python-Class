@@ -1,0 +1,6 @@
+import:utiizar en el programa librerias 
+libreria o paquete de py: coleccion de funciones (bloque de codigos)
+name: variable especial que existe cuando tu ejecutas py y te dice desde donde ejecuta py
+os: sistema operativo 
+sys:ayudan al programa 
+!= es para decir que algo no es igual a otra cosa

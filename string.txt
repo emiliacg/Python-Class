@@ -1,0 +1,17 @@
+sring es la coleccion de caracteres cerrados que esta compuesto por comillas simples o dobles.
+Longitud de una cadena> len().
+Indice> 0 a n-1
+El indice se cierra entre []
+
+String slicing> cortar una cadena(subencadernar). 
+start= el indice donde quieres empezar la subcadena.
+end= el indice donde quieres que termine la subcadena.
+
+Operadores>se representan caracteres o palabras clave especiales.
+En python se siguen dos noraciones, prefijo y areglo.
+ los operadores fijos aparecen entre dos operando que son valores que actuan al operador, se conocen como operadores binarios.
+un operador prefijo funciona en un operando y aparece antes, se conocen como unarios.
+
+% Modulo: print(-28 % 10)  # The remainder is positive if the right-hand operand is positive
+print(28 % -10)  # The remainder is negative if the right-hand operand is negative
+print(34.4 % 2.5)  # The remainder can be a float

@@ -1,0 +1,8 @@
+loops in python 
+estructura de control que se utiliza para ejecutar un conjunto de instruccione durante un numero especifico de veces.
+
+the for loops uses an iterator to traverse a sequence. En terminos simples, el iterador es una variable que va a traves de una lista.
+Estructura
+1. The name of the iterator.
+2. The sequence to be traversed.
+3. The set of operations to perform

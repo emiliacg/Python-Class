@@ -1,0 +1,22 @@
+assignment operators
+first = 20
+second = first
+first = 35  # Updating 'first'
+
+print(first, second)  # 'second' remains unchanged\
+
+Logical operations
+# OR Expression
+my_bool = True or False
+print(my_bool)
+
+# AND Expression
+my_bool = True and False
+print(my_bool)
+
+# NOT expression
+my_bool = False
+print(not my_bool)
+
+Bitwise operations
+el AND se considera una multiplicacion entre dos operandos

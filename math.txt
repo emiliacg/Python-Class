@@ -1,0 +1,66 @@
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import math
+>>> math.pow(3,2)
+9.0
+>>> math.log10(100)
+2.0
+>>> math.cos(180)
+-0.5984600690578582
+>>> math.PI
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'math' has no attribute 'PI'
+>>> math.pi
+3.141592653589793
+>>> math.cos(math.pi)
+-1.0
+>>> math.Miguel
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'math' has no attribute 'Miguel'
+>>> math.pi+pi
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pi' is not defined
+>>> math.e
+2.718281828459045
+>>> math.radians(180)
+3.141592653589793
+>>> math.degrees(math.pi)
+180.0
+>>> math.sqrt(144)
+12.0
+>>> math.sqrt(169)
+13.0
+>>> 14*14
+196
+>>> math.sqrt(196)
+14.0
+>>> math.gcd(128,96)
+32
+>>> 128/32
+4.0
+>>> 96/32
+3.0
+>>> 128/34
+3.764705882352941
+>>> 96/34
+2.823529411764706
+>>> math.log
+<built-in function log>
+>>> math.log(math.e)
+1.0
+>>> math.e
+2.718281828459045
+>>> round(math.e)
+3
+>>> math.floor(math.e)
+2
+>>> i=2.1
+>>> i
+2.1
+>>> round(i)
+2
+>>> math.ceil(i)
+3

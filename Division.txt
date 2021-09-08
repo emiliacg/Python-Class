@@ -1,0 +1,20 @@
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print ("lo mas duro")
+lo mas duro
+>>> 3/2
+1.5
+>>> 3%2
+1
+>>> n=7
+>>> n%2
+1
+>>> n=8
+>>> n%2
+0
+>>> n%2==0
+True
+>>> n=7
+>>> n%2==0
+False
+>>>

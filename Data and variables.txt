@@ -1,0 +1,30 @@
+python data type
+define el tipo de rango y valores de un elemento.
+-Python no pone mucho enfasis en definir el tipo de datos de un objeto, lo que simplifica la codificacion.  El idioma ofrece tre tipos de datos>
+Numbers(numeros), strings(instrumentos de cuerda), booleans(booleanos).
+asignar el valor a una variables a traves de =
+Las variables son mutables, el valor de una variables se puede reemplazar o actualizar.
+Convencion de nomenclaturas. Reglas para nombrar las variables:
+-El nombre puede empezar con una letra en mayuscula o en miniscula.
+-Puede aparecer un numero en el nombre, pero no al principio.
+-El"_" puede aparecer en cualquier lado del nombre.
+-No se aceptan espacios. En su lugar, debemos utilizar "snake_case" para que el nombre de la variable sea legible.
+-El nombre de las variables debe ser algo significativo que describa el valor que tiene, en lugar de ser caracteres random.
+Python posee tres tipos de numeros que son> integers(enteros), floating-point(puntos flotantes) and complex numbers(numeros complejos).
+Floating-points numbers: numeros decimales.
+0 ocupa 24 bytes, 1 ocupa 28 bytes. Numeros enteros.
+The float ocupa 24 bytes de memoria. "flt_pt"
+Complex numbers> parte real e imaginaria. print(complex(10, 20))  # Represents the complex number (10 + 20j)
+print(complex(2.5, -18.2))  # Represents the complex number (2.5 - 18.2j)
+
+complex_1 = complex(0, 2)
+complex_2 = complex(2, 0)
+print(complex_1)
+print(complex_2)
+
+
+complex_3 = complex(57,60)
+print(complex_3)
+Los numeros complejos suele ocupar 32 bytes de memoria.
+
+Boolean> True or False> "f_bool"

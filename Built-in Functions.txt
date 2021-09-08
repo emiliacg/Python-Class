@@ -1,0 +1,13 @@
+int() convertir la data a numeros enteros.  
+print(int("12") * 10)  # String to integer
+print(int(20.5))  # Float to integer
+print(int(False))  # Bool to integer
+Type conversions
+int()
+ord()
+float()
+str()
+bool().
+Lambda es la funcion anonima que retorna algun tipo de data.
+Syntax: lambda parameters (separated by commas) (optional): expression (an operation that returns something).
+map() map  object= list

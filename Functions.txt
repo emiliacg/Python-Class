@@ -1,0 +1,13 @@
+minimum= min()
+
+Los dos tipos de funciones en python>
+Built-in: print, len, min 
+User-defined
+
+Como hacer una funcion>:
+def 'name'(parameters): conjunto de operaciones a realizar por una funcion.
+
+Los parametros son la parte crucial de la estructura de una funcion.
+(,,,) argumentos.
+
+return keyboard
