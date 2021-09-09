@@ -1,3 +1,4 @@
+import pickle
 agenda= []
 for i in range(3):
     a= {}
@@ -7,3 +8,4 @@ for i in range(3):
 print(agenda)
 print(agenda[0]["nombre"], agenda[0]["numero"])
 print(agenda[2]["nombre"], agenda[1]["numero"])
+pickle.dump(agenda, open("agenda.pck", "wb")) 

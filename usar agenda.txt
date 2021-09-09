@@ -1,0 +1,131 @@
+ipython
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.25.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import pickle
+
+In [2]: agenda= pickle.load(open("agenda.pck","rb"))
+
+In [3]: print(agenda)
+[{'nombre': 'Emilia', 'numero': '2'}, {'nombre': 'Miguel', 'numero': '3'}, {'nombre': 'Susana', 'numero': '8'}]
+
+In [4]: for contacto in agenda:
+   ...:     print(contacto)
+   ...: 
+{'nombre': 'Emilia', 'numero': '2'}
+{'nombre': 'Miguel', 'numero': '3'}
+{'nombre': 'Susana', 'numero': '8'}
+
+In [5]: for posicion,  contacto in enumerate(agenda):
+   ...:     print(contacto)
+   ...:     print(posicion)
+   ...: 
+{'nombre': 'Emilia', 'numero': '2'}
+0
+{'nombre': 'Miguel', 'numero': '3'}
+1
+{'nombre': 'Susana', 'numero': '8'}
+2
+
+In [6]: for posicion,  contacto in enumerate(agenda):
+   ...:     if name= Susana
+   ...:     print(posicion)
+   ...: 
+   ...: 
+  File "<ipython-input-6-5b2e55aaab8d>", line 2
+    if name= Susana
+           ^
+SyntaxError: invalid syntax
+
+
+In [7]: for posicion,  contacto in enumerate(agenda):
+   ...:     if name= Susana
+   ...: print(posicion)
+   ...: 
+   ...: 
+   ...: 
+  File "<ipython-input-7-02d4e176dd65>", line 2
+    if name= Susana
+           ^
+SyntaxError: invalid syntax
+
+
+In [8]: for posicion,  contacto in enumerate(agenda):
+   ...:     if nombre=: "Susana"
+   ...: print(posicion)
+   ...: 
+   ...: 
+   ...: 
+  File "<ipython-input-8-6222b3111581>", line 2
+    if nombre=: "Susana"
+             ^
+SyntaxError: invalid syntax
+
+
+In [9]: for posicion,  contacto in enumerate(agenda):
+   ...:     if nombre= "Susana"
+   ...: print(posicion)
+   ...: 
+   ...: 
+   ...: 
+  File "<ipython-input-9-83fd7fad31f7>", line 2
+    if nombre= "Susana"
+             ^
+SyntaxError: invalid syntax
+
+
+In [10]: for posicion,  contacto in enumerate(agenda):
+    ...:     if "nombre"=="Susana"
+    ...: print(posicion)
+    ...: 
+    ...: 
+    ...: 
+  File "<ipython-input-10-7c4b244822d1>", line 2
+    if "nombre"=="Susana"
+                         ^
+SyntaxError: invalid syntax
+
+
+In [11]: for posicion,  contacto in enumerate(agenda):
+    ...:     if "nombre"=="Susana":
+    ...: print(posicion)
+    ...: 
+    ...: 
+    ...: 
+  File "<ipython-input-11-a9182a07e351>", line 3
+    print(posicion)
+                   ^
+IndentationError: expected an indented block
+
+
+In [12]: for posicion,  contacto in enumerate(agenda):
+    ...:     if "nombre"=="Susana":
+    ...:         print(posicion)
+    ...: 
+    ...: 
+    ...: 
+
+In [13]: for posicion,  contacto in enumerate(agenda):
+    ...:     if contacto["nombre"]=="Susana":
+    ...:         print(posicion)
+    ...: 
+    ...: 
+    ...: 
+2
+
+In [14]: for contacto in agenda:
+    ...:     print(contacto["nombre"])
+    ...: 
+Emilia
+Miguel
+Susana
+
+In [15]: for contacto in agenda:
+    ...:     print(contacto["numero"])
+    ...: 
+2
+3
+8
+
+In [16]: 
