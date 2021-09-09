@@ -35,3 +35,9 @@ for i in range(4):
     Asignaturas= input("agregue la asignatura: ")
     agenda.append(Asignaturas)
 print(agenda)
+
+agenda=[]
+for i in range(7):
+    Apellidos= input("agregue un apellido: ")
+    agenda.append(Apellidos)
+print(agenda)
