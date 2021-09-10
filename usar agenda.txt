@@ -129,3 +129,24 @@ In [15]: for contacto in agenda:
 8
 
 In [16]: 
+
+
+In [1]: print("hola")
+hola
+
+In [2]: print("hola",end="caracter final")
+holacaracter final
+In [3]: print("hola",end="")
+hola
+In [4]: print("hola",end="");print("adios",end"")
+  File "<ipython-input-4-2614799a1d5a>", line 1
+    print("hola",end="");print("adios",end"")
+                                          ^
+SyntaxError: invalid syntax
+
+
+In [5]: print("hola",end="");print("adios",end="")
+holaadios
+In [6]: print("1",end="");print("2",end="")
+12
+In [7]: print("1",end="");print("2",end="")
