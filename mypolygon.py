@@ -55,7 +55,7 @@ def arc(t: turtle.Turtle, r: int, angle: int) -> None:
     for i in range(round(angle/360*n)):
         t.fd(length)
         t.lt(360/n)
-#arc(bob, 100, angle= 360)
+arc(bob, 100, angle= 360)
 
 def arc2(t, r, angle):
     arc_length = 2 * math.pi * r * angle / 360
