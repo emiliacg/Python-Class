@@ -8,11 +8,11 @@ def polygon(t: turtle.Turtle, length: float, n: int):
     """Dibuja un poligono regular,
     de segmentos de tamaño length(in pixels), de n lados
     """
-    assert length>0, "length debe ser mayor que 0"
+    assert length > 0, "length debe ser mayor que 0"
     for i in range(n):
         t.fd(length)
         t.lt(360/n)
-polygon(bob, -50, n=3)
+#polygon(bob, -50, n=3)
 
 def square(t: turtle.Turtle, length: float):
     """Dibuja un cuadrado,
@@ -48,6 +48,7 @@ def arc(t: turtle.Turtle, r: int, angle: int) -> None:
     Por conveniencia n=500
     length= circunferencia/n
     """
+    assert r > 0, "radio debe ser positivo"
     c= 2*r*math.pi
     n= round(c/5) +3
     length= c/n
