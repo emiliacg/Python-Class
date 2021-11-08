@@ -45,3 +45,29 @@ def print_n(s, n):
         return
     print(s)
     print_n(s, n-1)
+
+uno= 50
+uno=3938
+print(uno)
+
+s= 90
+i= 100
+t= s + i
+u= i - s
+print(u)
+
+h= 20
+o= 90
+print( h != o)
+
+b= 9
+a= 10
+print( not (b<a))
+
+e= "Emilia "
+c= "Corti"
+print( e + c )
+
+m= "Miguel "
+m+= "Almonte"
+print(m)
